@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@200;300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: hsl(240, 7%, 3%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Overpass";
+}
+
+.card {
+  background-color: hsl(216, 12%, 8%);
+  border-radius: 15px;
+  box-shadow: 0 1px 3px hsl(216, 12%, 8%);
+  padding: 20px;
+  width: 330px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.h1 {
+  color: white;
+  display: flex;
+  height: 50px;
+  align-items: flex-start;
+    flex-direction: column-reverse;
+}
+
+
+.star {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 18%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.text {
+  display: flex;
+  color: hsl(217, 12%, 63%);
+  padding-top: 10px;
+  text-align: justify;
+  
+}
+
+img {
+  display: flex;
+ 
+}
+
+.btn2:hover {
+  background-color: hsl(0, 0%, 100%);
+  color:hsl(25, 97%, 53%) ;
+  
+
+}
+
+.btn2{
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border-radius: 20px;
+  width: 300px;
+  padding: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+  box-shadow: none;
+  border-style: none;
+}
+
+.btn{
+  display: flex;
+}
+
+.Numero1,
+.Numero2,
+.Numero3,
+.Numero4,
+.Numero5,
+.Numero6{
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:hsl(213, 19%, 18%);
+  flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    color: white;
+}
+
+.NoteNumero{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.Numero1:hover , .Numero2:hover , .Numero3:hover , .Numero4:hover , .Numero5:hover , .Numero6:hover
+{
+  background-color: hsl(25, 97%, 53%);
+}
+
+.colori1{
+  background-color: red;
+}
+
+.clicked {
+  background-color: rgb(199, 199, 198);
+  color: black;
+  font-weight: bold;
+}
